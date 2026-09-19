@@ -29,4 +29,11 @@ An enterprise-grade, vendor-agnostic Retrieval-Augmented Generation (RAG) pipeli
 1. **Install Dependencies:**
    ```bash
    pip install -r requirements.txt
-   
+
+   Set your Gemini API Key:
+Windows (PowerShell): $env:GEMINI_API_KEY="AQ.YOUR_API_KEY_HERE"
+Linux/macOS: export GEMINI_API_KEY="AQ.YOUR_API_KEY_HERE"
+
+Run the Pipeline:
+python main.py
+
